@@ -54,6 +54,7 @@ public class v1 extends JFrame implements ActionListener {
 	 * Create the frame.
 	 */
 	public v1() {
+		setTitle("TABLA CALCULADORA");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 554, 413);
 		contentPane = new JPanel();
